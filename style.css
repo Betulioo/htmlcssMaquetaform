@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    
+}
+.logo{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: white; 
+    border-bottom: 2px solid rgba(55, 55, 55, 0.1);
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-left: 80px;
+}
+    
+form {
+    height: 50%;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+.foot {
+    
+    border-top: 2px solid rgba(55, 55, 55, 0.1);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+fieldset{
+    padding: 10px;
+    border: none;
+}
+label{
+    display: block;
+}
+.imag {
+   max-width: 150px;
+   max-height: 30px;
+   object-fit: cover;
+}
+button{
+    background: none;
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button:active{
+   
+    border: 2px solid blue;
+}
+.imag2 {
+    max-width: 150px;
+    height: 30px;
+ }
+
+ a:visited{
+    color: rgb(53, 135, 241);
+ }
+ a{
+    text-decoration: none;
+    color: rgb(53, 135, 241);
+ }
+
+ ul{
+    display: flex;
+    
+ }
+ li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+ }
